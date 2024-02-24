@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fateh OUALI - Ph.D. Student</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    h1, h2, h3 {
+        color: #333;
+    }
+    p {
+        line-height: 1.6;
+    }
+    .cv-link, .motivation-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Fateh OUALI - Ph.D. Student</h1>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Ph.D. student in [Your Field of Study] with a focus on [Your Research Focus].</p>
+        </section>
+        <section id="cv">
+            <h2>CV</h2>
+            <p>Download my CV:</p>
+            <a href="link_to_your_cv.pdf" class="cv-link" download>Download CV</a>
+        </section>
+        <section id="motivation-letter">
+            <h2>Lettre de Motivation</h2>
+            <p>Download my Lettre de Motivation:</p>
+            <a href="link_to_your_motivation_letter.pdf" class="motivation-link" download>Download Lettre de Motivation</a>
+        </section>
+    </div>
+</body>
+</html>
 
